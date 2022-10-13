@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
 * printing a statement with puts function
+* main - Entry point
 */
 int main(void)
 {
