@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entry
- * Return: 1
+ * Return: Always 1 (success)
  */
 int main(void)
 {
