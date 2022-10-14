@@ -18,6 +18,7 @@ int main(void)
 		putchar(g);
 	for (low = 'a'; low <= 'f'; low++)
 		putchar(low);
+	putchar('\n');
 
 	return (0);
 }
