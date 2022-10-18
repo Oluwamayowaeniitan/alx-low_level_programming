@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower - Check main
  *
- * Return: Always null
+ * Return: 1 if is lowercase or 0 if is uppercase
  *
  */
 int _islower(int c)
@@ -16,5 +16,6 @@ int _islower(int c)
 		if (i == c)
 			lower = 1;
 	}
+
 	return (lower);
 }
