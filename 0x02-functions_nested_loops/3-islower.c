@@ -9,7 +9,7 @@
 int _islower(int c)
 {
 	char i;
-	int ret = 0;
+	int lower = 0;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
