@@ -2,8 +2,8 @@
 
 /**
  * _abs - Entry point
- *
- * Rrturn: Always null
+ * @r: Entry for absolute value
+ * Return: Always null
  */
 int _abs(int r)
 {
