@@ -8,6 +8,9 @@
 int _isupper(int c)
 {
 	int i;
+
+	c = 'C';
+
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
