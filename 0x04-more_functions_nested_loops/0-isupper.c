@@ -2,18 +2,18 @@
 
 /**
  * _isupper - Entry point
- * @i: character
+ * @c: character
  * Return: 1 if c is upper and 0 if otherwise
  */
 int _isupper(int c)
 {
-	int i;
+	char letter;
 
 	int upper = 0;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
-		if (i == c)
+		if (letter == c)
 		{
 			upper = 1;
 			break;
