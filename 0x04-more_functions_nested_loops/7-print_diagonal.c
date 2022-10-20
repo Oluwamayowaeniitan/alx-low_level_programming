@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Entry point
- *
+ * @n: diagonal
  * Return: Null
  */
 void print_diagonal(int n)
