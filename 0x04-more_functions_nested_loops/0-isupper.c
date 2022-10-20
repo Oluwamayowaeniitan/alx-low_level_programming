@@ -9,14 +9,15 @@ int _isupper(int c)
 {
 	int i;
 
-	c = 'C';
+	int upper = 0;
 
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
 		{
-			return (0);
+			upper = 1;
+			break;
 		}
 	}
-	return (1);
+	return (upper);
 }
