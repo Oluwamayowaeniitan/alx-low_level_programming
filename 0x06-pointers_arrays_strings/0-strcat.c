@@ -5,20 +5,18 @@
  * *_strcat - main function
  * @dest: first character
  * @src: second charcter
- * @n: input
  * Return: null
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, n;
+	char *temp = dest;
 
-	for (i = 0; dest[i] != '\0'; i++)
-	{
-	}
+	while (*dest)
+		dest++;
 
-	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
-	{
-	}
+	while (*src)
+		*dest++ = *src++;
 
-	return (dest);
+	*dest = '\0';
+	return (temp);
 }
